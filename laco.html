@@ -28,13 +28,26 @@
         button:hover{
             background: rgba(0, 0, 255, 0.678);
         }
+
+        input{
+            padding: 15px;
+            border-radius: 5px;
+            border: rgb(252, 251, 251) solid 1px;
+            background: rgba(41, 41, 150, 0.397);
+            color: aqua;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
-    
-<button onclick="somar()">Clique aqui!!</button>
+    <input type="number" id="numero" placeholder="Digite um número">
+    <br>
+    <button onclick="tabuada()">Clique aqui!!</button>
+    <br>
+    <div id="resultado"></div>
 
 
-    <script src="exercicio.js                   "></script>
+
+    <script src="exercicio.js"></script>
 </body>
 </html>
