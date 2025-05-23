@@ -5,27 +5,28 @@ WHILE
 APRESENTE A MEDIA DESTES NUMEROS
 */
 
-//  function somar() {
-//             let soma = 0;
-//             let contador = 0;
+ function somar() {
+            let soma = 0;
+            let contador = 0;
 
-//             while (contador < 6) {
+            while (contador < 6) {
                
-//                 let numeroString = prompt(`Digite o ${contador + 1}º valor!`);
+                
+                let numeroString = prompt(`Digite o ${contador + 1}º valor!`);
 
-//                 let numero = parseInt(numeroString);
+                let numero = parseInt(numeroString);
 
-//                 if (isNaN(numero)) {
-//                     alert("Entrada inválida! Por favor, digite um número.");
-//                     continue; 
-//                 }
+                if (isNaN(numero)) {
+                    alert("Entrada inválida! Por favor, digite um número.");
+                    continue; 
+                }
 
-//                 soma += numero;
-//                 contador++;
-//             }
+                soma += numero;
+                contador++;
+            }
 
-//             alert(`a Media dos 6 numeros é: ${soma / 6}`);
-//         }
+            alert(`a Media dos 6 numeros é: ${soma / 6}`);
+        }
 /*
 minha função vai ser somar
 soma vai ser minha variavel que vai receber a soma dos numeros
@@ -55,7 +56,6 @@ MOSTRE A QUANTIDADE DE NUMEROS PARES E IMPARES
 
 //     while (contador < 10) {
 //         let numeroString = prompt(`Digite o ${contador + 1}º valor!`);
-
 //         let numero = parseInt(numeroString);
 
 //         if (isNaN(numero)) {
@@ -68,12 +68,10 @@ MOSTRE A QUANTIDADE DE NUMEROS PARES E IMPARES
 //         } else {
 //             impares++;
 //         }
-
 //         contador++;
 //     }
 
-//     alert(`Quantidade de números pares: ${pares}`);
-//     alert(`Quantidade de números ímpares: ${impares}`);
+//     alert(`Quantidade de números pares: ${pares} e de números ímpares: ${impares}`);
 // }
 
 
@@ -109,21 +107,21 @@ o alert vai mostrar a quantidade de numeros impares
 O3 - USANDO O LAÇO FOR CRIE UM PROGRMA QUE RECEBA UM NUMERO DO USUARIO
 E MOSTRE A TABUADA DESTE NUMERO
  */
-function tabuada() {
-    let numeroString = document.getElementById("numero").value;
-    let numero = parseInt(numeroString);
-    let resultado = "";
+// function tabuada() {
+//     let numeroString = document.getElementById("numero").value;
+//     let numero = parseInt(numeroString);
+//     let resultado = "";
 
-    if (isNaN(numero)) {
-        alert("Entrada inválida! Por favor, digite um número.");
-        return; 
-    }
+//     if (isNaN(numero)) {
+//         alert("Entrada inválida! Por favor, digite um número.");
+//         return; 
+//     }
     
-    for (let i = 1; i <= 10; i++) {
-        resultado += `${numero} x ${i} = ${numero * i}\n`;
-    }
-    alert(resultado);
-}
+//     for (let i = 1; i <= 10; i++) {
+//         resultado += `${numero} x ${i} = ${numero * i}\n`;
+//     }
+//     alert(resultado);
+// }
 
 /*
 numeroString vai ser minha variavel que vai receber o valor do input
